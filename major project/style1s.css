@@ -1,0 +1,248 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your global styles here */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    height: 80px;
+    
+}
+p{
+    padding-left: 30px;
+    
+    text-decoration: solid;
+    position: relative;
+    top: 10px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+a{
+    background-color: #333;
+    color: wheat;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex-basis: 300px;
+    padding: 20px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img{vertical-align:top;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1800px;
+position: relative;
+margin: auto;
+/* padding-left: 200px; */
+top: 0px;
+}
+
+/* Caption text */
+.text {
+color: white;
+font-size: 50px;
+top: 400px;
+padding: 8px 12px;
+position: absolute;
+bottom: 0%;
+width: 100%;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+height: 100px;
+
+ 
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* img{
+    opacity: ;
+} */
+.d{
+    text-align: center;
+}
+input,textarea{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form{
+    background-color:wheat;
+    padding: 50px;
+    border-radius: 10px;
+    width:450px ;
+    height: 500px;
+}
+.co{
+    padding-left: 700px;
+    background-image: url("https://cdn.weboin.com/img/bg/faq_img.png");
+    background-repeat: no-repeat;
+}
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+a:hover{
+    background-color: #fadb0f;
+    color: #333;
+}
+tr{
+   margin-bottom: 30px; 
+}
+
+table{
+    padding-left:20px ;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.scroll-container {
+    width: 80vw;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snap-scrolling */
+}
+
+.scroll-item {
+    min-width: 20vw;
+    min-height: 10vh;
+    margin: 0 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start; /* Snap items to the start of the viewport */
+}

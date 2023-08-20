@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="style1s.css">
+</head>
+<body>
+  
+    <header>
+      <p style="color: #333;background-color: rgb(185, 177, 168);padding: 10px;border-radius: 10px;width:100px;position: relative;left: 10px;">DIGIMARK</p>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <!-- <div class="banner">
+            <h1>Your Digital Marketing Partner</h1>
+            <p>Boost your online presence with our expert services.</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div> -->
+        <div align=center class="slideshow-container" >
+
+            <div class="mySlides fade" >
+              
+              <img src="https://images.pexels.com/photos/3184464/pexels-photo-3184464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%;height:600px;box-shadow: none;" >
+              <div class="text"><b style="color:#333;">WEB DESIGN AND DEVELOPMENT</b></div>
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/7598019/pexels-photo-7598019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%;height:600px;box-shadow: none;">
+            <div class="text"><b style="color:#333;">CONTENT STRATEGY</b></div>
+            
+            </div>
+    
+            <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%;height:600px;box-shadow: none;">
+            <div class="text"><b style="color: #333;position: relative;" >ADVERTISING STRATEGY</b></div>
+            </div>
+            
+            </div>
+           
+            <div class="d">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+    </section>
+    <script>
+        function alfunc(){
+          alert("Added successfully , Check your cart to proceed.");
+        }
+        function f1(el){
+          
+          el.style.boxShadow = ' 0px 3px 3px 2px  #f0c20a';
+          el.style.opacity="0.8";
+        }
+        function fh2(el){
+          el.style.boxShadow='0px 0px 10px 1px black';
+          el.style.opacity="1";
+        }
+        function fh111(el){
+          
+          el.style.boxShadow = ' 0px 5px 5px #073236';
+          el.style.opacity="0.8";
+        }
+        function fh121(el){
+          el.style.boxShadow='none';
+          el.style.opacity="0.6";
+        }
+      
+      let slideIndex = 0;
+      showSlides();
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+  </script>
+  <a href="#top" style="position: fixed;bottom: 10px;">^Move to top</a>
+   <section >
+    <div class="container reveal" >
+        <h2>OUR CLIENTS</h2><br>
+
+      <div class="scroll-container">
+        <div class="scroll-content">
+            <div class="scroll-item"><img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-8.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"><img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-4.png"  height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-3.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-7.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-6.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-2.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-5.png" height="200px" width="250px" style="background-color: #333;"></div>
+            <div class="scroll-item"> <img src="https://dev.weboin.com/wp-content/uploads/2021/09/brand-1.png" height="200px" width="250px" style="background-color: #333;"></div>
+            
+        </div>
+    </div>
+    </div>
+</section>
+
+    <section id="about">
+        <div class="container reveal">
+            <h2>About Us</h2><table></table>
+            <tr><td>At DIGIMARK, we are more than just a digital marketing agency , we are your partners in growth and success. With a passion for creativity and a commitment to innovation, we bring your digital dreams to life. Our comprehensive suite of services, including web development and design, advertising strategy, and content strategy, empowers businesses to stand out in the competitive online landscape.
+              <a href="about.html">Know more</a>
+            </td>
+            <td><img src="https://cdn.weboin.com/img/bg/da_img.png" width="700px" height="700px" > </td>
+          </tr>
+          </table>
+          </div>
+    </section>
+
+    <section id="contact">
+        <div class="container reveal">
+            <h2>Contact Us</h2>
+            <div class="co">
+            <form action="query.php" method="POST">
+              <h2>ANY QUESTIONS?</h2><br><br><br>
+                <input type="text" name="name" placeholder="Your Name" required>&ensp;&ensp;<br><br>
+                <input type="email" name="email" placeholder="Your Email" required>&ensp;&ensp;<br><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 DIGIMARK</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
